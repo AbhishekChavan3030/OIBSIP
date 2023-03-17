@@ -1,0 +1,141 @@
+body {
+  padding: 0%;
+  margin: 0%;
+  background-image: url("codioful-formerly-gradienta-JYbxRcB9pvw-unsplash.jpg");
+  background-size: auto;
+}
+
+header {
+  width: 100vw;
+  box-shadow: 0px 5px 10px 0px rgba(63, 57, 57, 0.5);
+  display: flex;
+  align-content: center;
+}
+header li {
+  display: flex;
+  align-content: center;
+  display: inline;
+  list-style: unset;
+  padding: 10px;
+}
+header a {
+  margin-top: 10px;
+  text-decoration: unset;
+  color: rgb(255, 255, 255);
+}
+a {
+  text-decoration: unset;
+  color: rgb(255, 255, 255);
+}
+article {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10vh;
+}
+img {
+  width: 40vw;
+}
+.about {
+  overflow: hidden;
+  width: 60vw;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  padding-top: 10vh;
+}
+main {
+  color: white;
+  font-family: "Ubuntu Condensed", sans-serif;
+}
+a:hover {
+  color: yellow;
+}
+.logo a img {
+  width: 50px;
+  padding: 10px;
+}
+.logo li {
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  float: left;
+  justify-content: center;
+  align-content: center;
+}
+header .dropdown {
+  position: fixed;
+  right: 1vw;
+}
+.dropdown button{
+    border: unset;
+    background-color: unset;
+    padding: 5px;
+}
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+.heading,
+.img {
+  margin: 20px;
+  padding: 50px;
+}
+body {
+  font-size: xx-large;
+}
+.resume iframe{
+    border-radius: 15px;
+    width: fit-content;
+    height: 35vh;
+    margin: 15px;
+}
+main p{
+    display: flex;
+    justify-content: center;
+}
+button{
+    border: unset;
+    background-color:rgb(18, 73, 73);
+    color: white;
+    border-radius: 10px;
+}
+.button{
+    margin-top: 20px;
+       width: 100vw;
+       display: flex;
+       justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+    
+  body {
+    font-size: small;
+  }
+  .dropdown h4,
+  .dropdown a,
+  .heading h4,
+  .heading h1,
+  .heading h3 {
+    font-size: small;
+  }
+  .img img {
+    width: 30vh;
+  }
+  .heading,
+  .img {
+    margin: 5px;
+    padding: 10px;
+  }
+  
+
+  
+  
+}
